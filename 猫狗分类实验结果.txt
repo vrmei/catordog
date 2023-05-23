@@ -1,0 +1,600 @@
+runfile('D:/学习/作业/深度学习/kaggle/test.py', wdir='D:/学习/作业/深度学习/kaggle')
+0    loss: tensor(0.6055, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:24<00:00, 10.17it/s]
+Epoch:  0 | test accuracy:  0.621 | max accuracy:  0.621 |test-loss: 3238.126357
+1    loss: tensor(0.6986, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:24<00:00, 10.33it/s]
+Epoch:  1 | test accuracy:  0.627 | max accuracy:  0.627 |test-loss: 3188.742695
+2    loss: tensor(0.6375, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:24<00:00, 10.31it/s]
+Epoch:  2 | test accuracy:  0.687 | max accuracy:  0.687 |test-loss: 2946.996130
+3    loss: tensor(0.4478, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:24<00:00, 10.40it/s]
+Epoch:  3 | test accuracy:  0.704 | max accuracy:  0.704 |test-loss: 2842.356437
+4    loss: tensor(0.6208, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:24<00:00, 10.40it/s]
+Epoch:  4 | test accuracy:  0.720 | max accuracy:  0.720 |test-loss: 2758.014572
+5    loss: tensor(0.5046, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:24<00:00, 10.37it/s]
+Epoch:  5 | test accuracy:  0.721 | max accuracy:  0.721 |test-loss: 2710.466410
+6    loss: tensor(0.6255, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:24<00:00, 10.23it/s]
+Epoch:  6 | test accuracy:  0.745 | max accuracy:  0.745 |test-loss: 2626.551232
+7    loss: tensor(0.5198, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:24<00:00, 10.31it/s]
+Epoch:  7 | test accuracy:  0.737 | max accuracy:  0.745 |test-loss: 2615.330580
+8    loss: tensor(0.4989, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:24<00:00, 10.27it/s]
+Epoch:  8 | test accuracy:  0.745 | max accuracy:  0.745 |test-loss: 2619.802375
+9    loss: tensor(0.4630, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.43it/s]
+Epoch:  9 | test accuracy:  0.749 | max accuracy:  0.749 |test-loss: 2531.793598
+10    loss: tensor(0.2777, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:24<00:00, 10.34it/s]
+Epoch:  10 | test accuracy:  0.727 | max accuracy:  0.749 |test-loss: 2630.270451
+11    loss: tensor(0.3687, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.48it/s]
+Epoch:  11 | test accuracy:  0.759 | max accuracy:  0.759 |test-loss: 2478.339461
+12    loss: tensor(0.5620, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:24<00:00, 10.32it/s]
+Epoch:  12 | test accuracy:  0.767 | max accuracy:  0.767 |test-loss: 2434.357353
+13    loss: tensor(0.5079, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:24<00:00, 10.30it/s]
+Epoch:  13 | test accuracy:  0.762 | max accuracy:  0.767 |test-loss: 2427.044694
+14    loss: tensor(0.6465, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.44it/s]
+Epoch:  14 | test accuracy:  0.760 | max accuracy:  0.767 |test-loss: 2460.932076
+15    loss: tensor(0.5458, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.78it/s]
+Epoch:  15 | test accuracy:  0.690 | max accuracy:  0.767 |test-loss: 2933.526764
+16    loss: tensor(0.3959, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.54it/s]
+Epoch:  16 | test accuracy:  0.778 | max accuracy:  0.778 |test-loss: 2390.198228
+17    loss: tensor(0.3346, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:22<00:00, 10.90it/s]
+Epoch:  17 | test accuracy:  0.788 | max accuracy:  0.788 |test-loss: 2325.326573
+18    loss: tensor(0.4703, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.78it/s]
+Epoch:  18 | test accuracy:  0.776 | max accuracy:  0.788 |test-loss: 2328.868677
+19    loss: tensor(0.4295, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.45it/s]
+Epoch:  19 | test accuracy:  0.795 | max accuracy:  0.795 |test-loss: 2289.623084
+20    loss: tensor(0.3830, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.58it/s]
+Epoch:  20 | test accuracy:  0.785 | max accuracy:  0.795 |test-loss: 2278.875774
+21    loss: tensor(0.4333, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.59it/s]
+Epoch:  21 | test accuracy:  0.790 | max accuracy:  0.795 |test-loss: 2260.577665
+22    loss: tensor(0.4772, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:22<00:00, 10.91it/s]
+Epoch:  22 | test accuracy:  0.771 | max accuracy:  0.795 |test-loss: 2350.266579
+23    loss: tensor(0.5930, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:22<00:00, 10.97it/s]
+Epoch:  23 | test accuracy:  0.790 | max accuracy:  0.795 |test-loss: 2210.272655
+24    loss: tensor(0.4355, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.74it/s]
+Epoch:  24 | test accuracy:  0.798 | max accuracy:  0.798 |test-loss: 2198.102569
+25    loss: tensor(0.3573, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.52it/s]
+Epoch:  25 | test accuracy:  0.784 | max accuracy:  0.798 |test-loss: 2278.780755
+26    loss: tensor(0.4183, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.55it/s]
+Epoch:  26 | test accuracy:  0.788 | max accuracy:  0.798 |test-loss: 2243.843537
+27    loss: tensor(0.8272, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:24<00:00, 10.35it/s]
+Epoch:  27 | test accuracy:  0.789 | max accuracy:  0.798 |test-loss: 2223.155086
+28    loss: tensor(0.4117, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:24<00:00, 10.38it/s]
+Epoch:  28 | test accuracy:  0.805 | max accuracy:  0.805 |test-loss: 2126.735923
+29    loss: tensor(0.2930, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.71it/s]
+Epoch:  29 | test accuracy:  0.806 | max accuracy:  0.806 |test-loss: 2098.574468
+30    loss: tensor(0.3570, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.51it/s]
+Epoch:  30 | test accuracy:  0.813 | max accuracy:  0.813 |test-loss: 2102.243922
+31    loss: tensor(0.3647, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.49it/s]
+Epoch:  31 | test accuracy:  0.800 | max accuracy:  0.813 |test-loss: 2129.647948
+32    loss: tensor(0.4182, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.58it/s]
+Epoch:  32 | test accuracy:  0.809 | max accuracy:  0.813 |test-loss: 2102.318814
+33    loss: tensor(0.3663, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.71it/s]
+Epoch:  33 | test accuracy:  0.769 | max accuracy:  0.813 |test-loss: 2365.273968
+34    loss: tensor(0.5042, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:22<00:00, 11.07it/s]
+Epoch:  34 | test accuracy:  0.815 | max accuracy:  0.815 |test-loss: 2059.026735
+35    loss: tensor(0.4593, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.78it/s]
+Epoch:  35 | test accuracy:  0.824 | max accuracy:  0.824 |test-loss: 1983.593708
+36    loss: tensor(0.2824, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.62it/s]
+Epoch:  36 | test accuracy:  0.816 | max accuracy:  0.824 |test-loss: 2045.694636
+37    loss: tensor(0.6362, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.75it/s]
+Epoch:  37 | test accuracy:  0.812 | max accuracy:  0.824 |test-loss: 2151.829741
+38    loss: tensor(0.3733, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.44it/s]
+Epoch:  38 | test accuracy:  0.806 | max accuracy:  0.824 |test-loss: 2073.561456
+39    loss: tensor(0.2297, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.44it/s]
+Epoch:  39 | test accuracy:  0.813 | max accuracy:  0.824 |test-loss: 2087.741253
+40    loss: tensor(0.4265, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.52it/s]
+Epoch:  40 | test accuracy:  0.800 | max accuracy:  0.824 |test-loss: 2202.611954
+41    loss: tensor(0.3994, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:24<00:00, 10.39it/s]
+Epoch:  41 | test accuracy:  0.829 | max accuracy:  0.829 |test-loss: 1934.602407
+42    loss: tensor(0.2395, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.72it/s]
+Epoch:  42 | test accuracy:  0.805 | max accuracy:  0.829 |test-loss: 2077.130121
+43    loss: tensor(0.2213, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.85it/s]
+Epoch:  43 | test accuracy:  0.825 | max accuracy:  0.829 |test-loss: 1942.074680
+44    loss: tensor(0.3433, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.57it/s]
+Epoch:  44 | test accuracy:  0.814 | max accuracy:  0.829 |test-loss: 1993.305233
+45    loss: tensor(0.3413, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.72it/s]
+Epoch:  45 | test accuracy:  0.819 | max accuracy:  0.829 |test-loss: 1944.941601
+46    loss: tensor(0.3069, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.58it/s]
+Epoch:  46 | test accuracy:  0.825 | max accuracy:  0.829 |test-loss: 1944.501776
+47    loss: tensor(0.4379, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.52it/s]
+Epoch:  47 | test accuracy:  0.817 | max accuracy:  0.829 |test-loss: 1956.597487
+48    loss: tensor(0.5054, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.76it/s]
+Epoch:  48 | test accuracy:  0.823 | max accuracy:  0.829 |test-loss: 1918.718797
+49    loss: tensor(0.2820, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.50it/s]
+Epoch:  49 | test accuracy:  0.825 | max accuracy:  0.829 |test-loss: 1898.350008
+50    loss: tensor(0.1752, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.52it/s]
+Epoch:  50 | test accuracy:  0.831 | max accuracy:  0.831 |test-loss: 1852.670928
+51    loss: tensor(0.3308, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.61it/s]
+Epoch:  51 | test accuracy:  0.841 | max accuracy:  0.841 |test-loss: 1809.105881
+52    loss: tensor(0.5848, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.63it/s]
+Epoch:  52 | test accuracy:  0.837 | max accuracy:  0.841 |test-loss: 1858.172319
+53    loss: tensor(0.4544, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.76it/s]
+Epoch:  53 | test accuracy:  0.828 | max accuracy:  0.841 |test-loss: 1903.569436
+54    loss: tensor(0.3029, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:22<00:00, 10.93it/s]
+Epoch:  54 | test accuracy:  0.823 | max accuracy:  0.841 |test-loss: 1969.795865
+55    loss: tensor(0.4778, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:24<00:00, 10.24it/s]
+Epoch:  55 | test accuracy:  0.844 | max accuracy:  0.844 |test-loss: 1745.031520
+56    loss: tensor(0.4100, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.80it/s]
+Epoch:  56 | test accuracy:  0.832 | max accuracy:  0.844 |test-loss: 1798.905972
+57    loss: tensor(0.3152, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.48it/s]
+Epoch:  57 | test accuracy:  0.838 | max accuracy:  0.844 |test-loss: 1861.731148
+58    loss: tensor(0.4778, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.68it/s]
+Epoch:  58 | test accuracy:  0.828 | max accuracy:  0.844 |test-loss: 1849.535975
+59    loss: tensor(0.4171, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.59it/s]
+Epoch:  59 | test accuracy:  0.842 | max accuracy:  0.844 |test-loss: 1787.460769
+60    loss: tensor(0.2348, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.70it/s]
+Epoch:  60 | test accuracy:  0.845 | max accuracy:  0.845 |test-loss: 1727.597439
+61    loss: tensor(0.2213, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.53it/s]
+Epoch:  61 | test accuracy:  0.847 | max accuracy:  0.847 |test-loss: 1729.138429
+62    loss: tensor(0.4617, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.48it/s]
+Epoch:  62 | test accuracy:  0.833 | max accuracy:  0.847 |test-loss: 1788.752894
+63    loss: tensor(0.4282, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.60it/s]
+Epoch:  63 | test accuracy:  0.845 | max accuracy:  0.847 |test-loss: 1745.287433
+64    loss: tensor(0.2638, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.44it/s]
+Epoch:  64 | test accuracy:  0.851 | max accuracy:  0.851 |test-loss: 1693.415030
+65    loss: tensor(0.2339, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:22<00:00, 10.97it/s]
+Epoch:  65 | test accuracy:  0.853 | max accuracy:  0.853 |test-loss: 1689.412467
+66    loss: tensor(0.4515, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.83it/s]
+Epoch:  66 | test accuracy:  0.854 | max accuracy:  0.854 |test-loss: 1670.474054
+67    loss: tensor(0.3858, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:22<00:00, 10.94it/s]
+Epoch:  67 | test accuracy:  0.839 | max accuracy:  0.854 |test-loss: 1817.543013
+68    loss: tensor(0.4304, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.56it/s]
+Epoch:  68 | test accuracy:  0.846 | max accuracy:  0.854 |test-loss: 1738.490266
+69    loss: tensor(0.2747, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.51it/s]
+Epoch:  69 | test accuracy:  0.850 | max accuracy:  0.854 |test-loss: 1668.037477
+70    loss: tensor(0.2590, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.44it/s]
+Epoch:  70 | test accuracy:  0.848 | max accuracy:  0.854 |test-loss: 1657.936055
+71    loss: tensor(0.3395, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.61it/s]
+Epoch:  71 | test accuracy:  0.842 | max accuracy:  0.854 |test-loss: 1844.957648
+72    loss: tensor(0.2342, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.51it/s]
+Epoch:  72 | test accuracy:  0.847 | max accuracy:  0.854 |test-loss: 1693.335124
+73    loss: tensor(0.2685, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.83it/s]
+Epoch:  73 | test accuracy:  0.855 | max accuracy:  0.855 |test-loss: 1645.457619
+74    loss: tensor(0.2876, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:22<00:00, 10.91it/s]
+Epoch:  74 | test accuracy:  0.846 | max accuracy:  0.855 |test-loss: 1743.038857
+75    loss: tensor(0.2643, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.67it/s]
+Epoch:  75 | test accuracy:  0.844 | max accuracy:  0.855 |test-loss: 1773.949419
+76    loss: tensor(0.4525, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:22<00:00, 10.90it/s]
+Epoch:  76 | test accuracy:  0.846 | max accuracy:  0.855 |test-loss: 1697.588489
+77    loss: tensor(0.2658, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.63it/s]
+Epoch:  77 | test accuracy:  0.871 | max accuracy:  0.871 |test-loss: 1522.300991
+78    loss: tensor(0.5887, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.57it/s]
+Epoch:  78 | test accuracy:  0.856 | max accuracy:  0.871 |test-loss: 1618.719988
+79    loss: tensor(0.3770, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.58it/s]
+Epoch:  79 | test accuracy:  0.852 | max accuracy:  0.871 |test-loss: 1627.368764
+80    loss: tensor(0.2279, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:24<00:00, 10.32it/s]
+Epoch:  80 | test accuracy:  0.859 | max accuracy:  0.871 |test-loss: 1589.218922
+81    loss: tensor(0.2404, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.56it/s]
+Epoch:  81 | test accuracy:  0.865 | max accuracy:  0.871 |test-loss: 1570.181716
+82    loss: tensor(0.3157, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.57it/s]
+Epoch:  82 | test accuracy:  0.857 | max accuracy:  0.871 |test-loss: 1532.567953
+83    loss: tensor(0.4018, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.81it/s]
+Epoch:  83 | test accuracy:  0.827 | max accuracy:  0.871 |test-loss: 1848.226492
+84    loss: tensor(0.3449, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:22<00:00, 11.02it/s]
+Epoch:  84 | test accuracy:  0.860 | max accuracy:  0.871 |test-loss: 1601.686735
+85    loss: tensor(0.4598, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.71it/s]
+Epoch:  85 | test accuracy:  0.861 | max accuracy:  0.871 |test-loss: 1539.563174
+86    loss: tensor(0.1150, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:22<00:00, 10.87it/s]
+Epoch:  86 | test accuracy:  0.856 | max accuracy:  0.871 |test-loss: 1649.816508
+87    loss: tensor(0.2302, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.42it/s]
+Epoch:  87 | test accuracy:  0.855 | max accuracy:  0.871 |test-loss: 1656.216371
+88    loss: tensor(0.1730, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.62it/s]
+Epoch:  88 | test accuracy:  0.862 | max accuracy:  0.871 |test-loss: 1546.847878
+89    loss: tensor(0.1944, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.54it/s]
+Epoch:  89 | test accuracy:  0.860 | max accuracy:  0.871 |test-loss: 1555.259999
+90    loss: tensor(0.4001, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.45it/s]
+Epoch:  90 | test accuracy:  0.862 | max accuracy:  0.871 |test-loss: 1527.730650
+91    loss: tensor(0.1953, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.77it/s]
+Epoch:  91 | test accuracy:  0.866 | max accuracy:  0.871 |test-loss: 1514.942910
+92    loss: tensor(0.3991, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.79it/s]
+Epoch:  92 | test accuracy:  0.869 | max accuracy:  0.871 |test-loss: 1515.541261
+93    loss: tensor(0.1914, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.44it/s]
+Epoch:  93 | test accuracy:  0.871 | max accuracy:  0.871 |test-loss: 1468.625111
+94    loss: tensor(0.1017, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.71it/s]
+Epoch:  94 | test accuracy:  0.854 | max accuracy:  0.871 |test-loss: 1630.372127
+95    loss: tensor(0.1025, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.75it/s]
+Epoch:  95 | test accuracy:  0.865 | max accuracy:  0.871 |test-loss: 1529.546319
+96    loss: tensor(0.1569, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:24<00:00, 10.42it/s]
+Epoch:  96 | test accuracy:  0.871 | max accuracy:  0.871 |test-loss: 1421.728826
+97    loss: tensor(0.3676, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.79it/s]
+Epoch:  97 | test accuracy:  0.869 | max accuracy:  0.871 |test-loss: 1462.452062
+98    loss: tensor(0.2165, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.77it/s]
+Epoch:  98 | test accuracy:  0.871 | max accuracy:  0.871 |test-loss: 1474.208842
+99    loss: tensor(0.2205, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.63it/s]
+Epoch:  99 | test accuracy:  0.864 | max accuracy:  0.871 |test-loss: 1454.525162
+100    loss: tensor(0.1627, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.47it/s]
+Epoch:  100 | test accuracy:  0.874 | max accuracy:  0.874 |test-loss: 1443.669987
+101    loss: tensor(0.5452, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.65it/s]
+Epoch:  101 | test accuracy:  0.867 | max accuracy:  0.874 |test-loss: 1523.875726
+102    loss: tensor(0.1384, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.59it/s]
+Epoch:  102 | test accuracy:  0.872 | max accuracy:  0.874 |test-loss: 1448.240879
+103    loss: tensor(0.3000, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.73it/s]
+Epoch:  103 | test accuracy:  0.864 | max accuracy:  0.874 |test-loss: 1481.710122
+104    loss: tensor(0.5309, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.84it/s]
+Epoch:  104 | test accuracy:  0.869 | max accuracy:  0.874 |test-loss: 1474.322097
+105    loss: tensor(0.2623, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.82it/s]
+Epoch:  105 | test accuracy:  0.875 | max accuracy:  0.875 |test-loss: 1475.566479
+106    loss: tensor(0.1668, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.72it/s]
+Epoch:  106 | test accuracy:  0.878 | max accuracy:  0.878 |test-loss: 1406.335494
+107    loss: tensor(0.2169, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.48it/s]
+Epoch:  107 | test accuracy:  0.878 | max accuracy:  0.878 |test-loss: 1440.412144
+108    loss: tensor(0.1701, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:22<00:00, 10.90it/s]
+Epoch:  108 | test accuracy:  0.871 | max accuracy:  0.878 |test-loss: 1415.830672
+109    loss: tensor(0.2460, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:24<00:00, 10.37it/s]
+Epoch:  109 | test accuracy:  0.872 | max accuracy:  0.878 |test-loss: 1401.659813
+110    loss: tensor(0.4275, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:24<00:00, 10.34it/s]
+Epoch:  110 | test accuracy:  0.873 | max accuracy:  0.878 |test-loss: 1438.691433
+111    loss: tensor(0.2246, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.58it/s]
+Epoch:  111 | test accuracy:  0.873 | max accuracy:  0.878 |test-loss: 1417.957441
+112    loss: tensor(0.0514, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.79it/s]
+Epoch:  112 | test accuracy:  0.867 | max accuracy:  0.878 |test-loss: 1573.371475
+113    loss: tensor(0.1039, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.49it/s]
+Epoch:  113 | test accuracy:  0.873 | max accuracy:  0.878 |test-loss: 1424.398318
+114    loss: tensor(0.3443, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.50it/s]
+Epoch:  114 | test accuracy:  0.859 | max accuracy:  0.878 |test-loss: 1550.835921
+115    loss: tensor(0.1261, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.81it/s]
+Epoch:  115 | test accuracy:  0.875 | max accuracy:  0.878 |test-loss: 1425.695081
+116    loss: tensor(0.0847, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:22<00:00, 10.96it/s]
+Epoch:  116 | test accuracy:  0.880 | max accuracy:  0.880 |test-loss: 1408.610241
+117    loss: tensor(0.1502, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.53it/s]
+Epoch:  117 | test accuracy:  0.880 | max accuracy:  0.880 |test-loss: 1386.142774
+118    loss: tensor(0.2625, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.60it/s]
+Epoch:  118 | test accuracy:  0.880 | max accuracy:  0.880 |test-loss: 1395.062242
+119    loss: tensor(0.3652, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.48it/s]
+Epoch:  119 | test accuracy:  0.875 | max accuracy:  0.880 |test-loss: 1376.160691
+120    loss: tensor(0.2904, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.47it/s]
+Epoch:  120 | test accuracy:  0.878 | max accuracy:  0.880 |test-loss: 1360.409708
+121    loss: tensor(0.0628, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.57it/s]
+Epoch:  121 | test accuracy:  0.873 | max accuracy:  0.880 |test-loss: 1450.582691
+122    loss: tensor(0.1213, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.87it/s]
+Epoch:  122 | test accuracy:  0.879 | max accuracy:  0.880 |test-loss: 1413.139992
+123    loss: tensor(0.1787, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.62it/s]
+Epoch:  123 | test accuracy:  0.875 | max accuracy:  0.880 |test-loss: 1390.209381
+124    loss: tensor(0.1548, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.82it/s]
+Epoch:  124 | test accuracy:  0.882 | max accuracy:  0.882 |test-loss: 1337.667077
+125    loss: tensor(0.5568, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.69it/s]
+Epoch:  125 | test accuracy:  0.887 | max accuracy:  0.887 |test-loss: 1375.494285
+126    loss: tensor(0.1187, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.57it/s]
+Epoch:  126 | test accuracy:  0.886 | max accuracy:  0.887 |test-loss: 1339.250350
+127    loss: tensor(0.1951, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:24<00:00, 10.39it/s]
+Epoch:  127 | test accuracy:  0.891 | max accuracy:  0.891 |test-loss: 1265.863035
+128    loss: tensor(0.3825, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.58it/s]
+Epoch:  128 | test accuracy:  0.885 | max accuracy:  0.891 |test-loss: 1324.310427
+129    loss: tensor(0.2855, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:24<00:00, 10.36it/s]
+Epoch:  129 | test accuracy:  0.850 | max accuracy:  0.891 |test-loss: 1683.093069
+130    loss: tensor(0.1828, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:24<00:00, 10.37it/s]
+Epoch:  130 | test accuracy:  0.881 | max accuracy:  0.891 |test-loss: 1338.683030
+131    loss: tensor(0.3368, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:24<00:00, 10.38it/s]
+Epoch:  131 | test accuracy:  0.882 | max accuracy:  0.891 |test-loss: 1348.191643
+132    loss: tensor(0.2101, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.68it/s]
+Epoch:  132 | test accuracy:  0.893 | max accuracy:  0.893 |test-loss: 1243.499148
+133    loss: tensor(0.0776, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.71it/s]
+Epoch:  133 | test accuracy:  0.880 | max accuracy:  0.893 |test-loss: 1420.195663
+134    loss: tensor(0.5011, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.80it/s]
+Epoch:  134 | test accuracy:  0.883 | max accuracy:  0.893 |test-loss: 1300.259002
+135    loss: tensor(0.3310, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:22<00:00, 10.94it/s]
+Epoch:  135 | test accuracy:  0.877 | max accuracy:  0.893 |test-loss: 1419.327949
+136    loss: tensor(0.2416, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.52it/s]
+Epoch:  136 | test accuracy:  0.884 | max accuracy:  0.893 |test-loss: 1313.852317
+137    loss: tensor(0.3428, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.65it/s]
+Epoch:  137 | test accuracy:  0.887 | max accuracy:  0.893 |test-loss: 1272.782780
+138    loss: tensor(0.2528, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.55it/s]
+Epoch:  138 | test accuracy:  0.878 | max accuracy:  0.893 |test-loss: 1404.979535
+139    loss: tensor(0.1769, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.75it/s]
+Epoch:  139 | test accuracy:  0.882 | max accuracy:  0.893 |test-loss: 1371.940306
+140    loss: tensor(0.1738, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.56it/s]
+Epoch:  140 | test accuracy:  0.882 | max accuracy:  0.893 |test-loss: 1341.883879
+141    loss: tensor(0.2306, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.68it/s]
+Epoch:  141 | test accuracy:  0.887 | max accuracy:  0.893 |test-loss: 1307.595605
+142    loss: tensor(0.1882, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.65it/s]
+Epoch:  142 | test accuracy:  0.885 | max accuracy:  0.893 |test-loss: 1266.645276
+143    loss: tensor(0.2200, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.82it/s]
+Epoch:  143 | test accuracy:  0.885 | max accuracy:  0.893 |test-loss: 1277.302294
+144    loss: tensor(0.0642, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.77it/s]
+Epoch:  144 | test accuracy:  0.892 | max accuracy:  0.893 |test-loss: 1274.047904
+145    loss: tensor(0.2099, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.74it/s]
+Epoch:  145 | test accuracy:  0.884 | max accuracy:  0.893 |test-loss: 1325.740426
+146    loss: tensor(0.2535, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.54it/s]
+Epoch:  146 | test accuracy:  0.886 | max accuracy:  0.893 |test-loss: 1346.023462
+147    loss: tensor(0.2130, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:22<00:00, 10.93it/s]
+Epoch:  147 | test accuracy:  0.887 | max accuracy:  0.893 |test-loss: 1303.168234
+148    loss: tensor(0.1757, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.77it/s]
+Epoch:  148 | test accuracy:  0.885 | max accuracy:  0.893 |test-loss: 1280.028068
+149    loss: tensor(0.1688, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:24<00:00, 10.30it/s]
+Epoch:  149 | test accuracy:  0.895 | max accuracy:  0.895 |test-loss: 1260.452111
+150    loss: tensor(0.1495, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.48it/s]
+Epoch:  150 | test accuracy:  0.897 | max accuracy:  0.897 |test-loss: 1222.739953
+151    loss: tensor(0.0880, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:24<00:00, 10.41it/s]
+Epoch:  151 | test accuracy:  0.880 | max accuracy:  0.897 |test-loss: 1362.238375
+152    loss: tensor(0.3337, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.75it/s]
+Epoch:  152 | test accuracy:  0.890 | max accuracy:  0.897 |test-loss: 1317.519080
+153    loss: tensor(0.3490, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.65it/s]
+Epoch:  153 | test accuracy:  0.897 | max accuracy:  0.897 |test-loss: 1205.880817
+154    loss: tensor(0.1542, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.71it/s]
+Epoch:  154 | test accuracy:  0.892 | max accuracy:  0.897 |test-loss: 1253.980853
+155    loss: tensor(0.2866, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.53it/s]
+Epoch:  155 | test accuracy:  0.892 | max accuracy:  0.897 |test-loss: 1199.669967
+156    loss: tensor(0.2400, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.57it/s]
+Epoch:  156 | test accuracy:  0.885 | max accuracy:  0.897 |test-loss: 1302.238032
+157    loss: tensor(0.1258, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.66it/s]
+Epoch:  157 | test accuracy:  0.892 | max accuracy:  0.897 |test-loss: 1223.473062
+158    loss: tensor(0.1434, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.44it/s]
+Epoch:  158 | test accuracy:  0.885 | max accuracy:  0.897 |test-loss: 1276.012976
+159    loss: tensor(0.0817, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.57it/s]
+Epoch:  159 | test accuracy:  0.891 | max accuracy:  0.897 |test-loss: 1234.206134
+160    loss: tensor(0.4810, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:24<00:00, 10.33it/s]
+Epoch:  160 | test accuracy:  0.896 | max accuracy:  0.897 |test-loss: 1227.198937
+161    loss: tensor(0.0965, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.58it/s]
+Epoch:  161 | test accuracy:  0.886 | max accuracy:  0.897 |test-loss: 1358.402121
+162    loss: tensor(0.1731, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.65it/s]
+Epoch:  162 | test accuracy:  0.884 | max accuracy:  0.897 |test-loss: 1342.742590
+163    loss: tensor(0.0799, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.63it/s]
+Epoch:  163 | test accuracy:  0.892 | max accuracy:  0.897 |test-loss: 1287.977202
+164    loss: tensor(0.0957, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.55it/s]
+Epoch:  164 | test accuracy:  0.897 | max accuracy:  0.897 |test-loss: 1214.474486
+165    loss: tensor(0.1765, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.68it/s]
+Epoch:  165 | test accuracy:  0.892 | max accuracy:  0.897 |test-loss: 1301.720459
+166    loss: tensor(0.0814, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.81it/s]
+Epoch:  166 | test accuracy:  0.885 | max accuracy:  0.897 |test-loss: 1440.942964
+167    loss: tensor(0.1415, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.61it/s]
+Epoch:  167 | test accuracy:  0.890 | max accuracy:  0.897 |test-loss: 1228.750805
+168    loss: tensor(0.6678, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.52it/s]
+Epoch:  168 | test accuracy:  0.889 | max accuracy:  0.897 |test-loss: 1245.727024
+169    loss: tensor(0.3317, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.77it/s]
+Epoch:  169 | test accuracy:  0.891 | max accuracy:  0.897 |test-loss: 1259.900440
+170    loss: tensor(0.3216, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:24<00:00, 10.40it/s]
+Epoch:  170 | test accuracy:  0.898 | max accuracy:  0.898 |test-loss: 1211.877818
+171    loss: tensor(0.2565, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.62it/s]
+Epoch:  171 | test accuracy:  0.891 | max accuracy:  0.898 |test-loss: 1262.967637
+172    loss: tensor(0.1664, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:22<00:00, 10.88it/s]
+Epoch:  172 | test accuracy:  0.889 | max accuracy:  0.898 |test-loss: 1239.008284
+173    loss: tensor(0.1526, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.58it/s]
+Epoch:  173 | test accuracy:  0.890 | max accuracy:  0.898 |test-loss: 1245.653172
+174    loss: tensor(0.1031, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.72it/s]
+Epoch:  174 | test accuracy:  0.880 | max accuracy:  0.898 |test-loss: 1400.592480
+175    loss: tensor(0.0443, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.50it/s]
+Epoch:  175 | test accuracy:  0.901 | max accuracy:  0.901 |test-loss: 1205.231701
+176    loss: tensor(0.1334, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.60it/s]
+Epoch:  176 | test accuracy:  0.891 | max accuracy:  0.901 |test-loss: 1264.377308
+177    loss: tensor(0.0800, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.49it/s]
+Epoch:  177 | test accuracy:  0.890 | max accuracy:  0.901 |test-loss: 1216.620116
+178    loss: tensor(0.1851, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.46it/s]
+Epoch:  178 | test accuracy:  0.898 | max accuracy:  0.901 |test-loss: 1244.305924
+179    loss: tensor(0.4627, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.59it/s]
+Epoch:  179 | test accuracy:  0.900 | max accuracy:  0.901 |test-loss: 1212.635201
+180    loss: tensor(0.1724, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.67it/s]
+Epoch:  180 | test accuracy:  0.895 | max accuracy:  0.901 |test-loss: 1261.979006
+181    loss: tensor(0.2280, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.67it/s]
+Epoch:  181 | test accuracy:  0.896 | max accuracy:  0.901 |test-loss: 1202.394030
+182    loss: tensor(0.0803, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.53it/s]
+Epoch:  182 | test accuracy:  0.878 | max accuracy:  0.901 |test-loss: 1469.025417
+183    loss: tensor(0.0420, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.64it/s]
+Epoch:  183 | test accuracy:  0.901 | max accuracy:  0.901 |test-loss: 1171.218907
+184    loss: tensor(0.1623, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.52it/s]
+Epoch:  184 | test accuracy:  0.900 | max accuracy:  0.901 |test-loss: 1141.289658
+185    loss: tensor(0.2710, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.73it/s]
+Epoch:  185 | test accuracy:  0.901 | max accuracy:  0.901 |test-loss: 1174.253698
+186    loss: tensor(0.1313, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.63it/s]
+Epoch:  186 | test accuracy:  0.889 | max accuracy:  0.901 |test-loss: 1278.659214
+187    loss: tensor(0.2711, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.72it/s]
+Epoch:  187 | test accuracy:  0.897 | max accuracy:  0.901 |test-loss: 1211.953386
+188    loss: tensor(0.0985, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.58it/s]
+Epoch:  188 | test accuracy:  0.902 | max accuracy:  0.902 |test-loss: 1164.823884
+189    loss: tensor(0.1327, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.50it/s]
+Epoch:  189 | test accuracy:  0.896 | max accuracy:  0.902 |test-loss: 1278.127547
+190    loss: tensor(0.2130, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:24<00:00, 10.35it/s]
+Epoch:  190 | test accuracy:  0.901 | max accuracy:  0.902 |test-loss: 1136.767744
+191    loss: tensor(0.3065, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:24<00:00, 10.37it/s]
+Epoch:  191 | test accuracy:  0.896 | max accuracy:  0.902 |test-loss: 1222.560860
+192    loss: tensor(0.1650, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:24<00:00, 10.41it/s]
+Epoch:  192 | test accuracy:  0.896 | max accuracy:  0.902 |test-loss: 1297.147045
+193    loss: tensor(0.1466, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.43it/s]
+Epoch:  193 | test accuracy:  0.891 | max accuracy:  0.902 |test-loss: 1262.309417
+194    loss: tensor(0.0326, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.44it/s]
+Epoch:  194 | test accuracy:  0.902 | max accuracy:  0.902 |test-loss: 1176.266585
+195    loss: tensor(0.1610, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.44it/s]
+Epoch:  195 | test accuracy:  0.902 | max accuracy:  0.902 |test-loss: 1181.659319
+196    loss: tensor(0.1417, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.85it/s]
+Epoch:  196 | test accuracy:  0.908 | max accuracy:  0.908 |test-loss: 1124.325169
+197    loss: tensor(0.1263, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.60it/s]
+Epoch:  197 | test accuracy:  0.900 | max accuracy:  0.908 |test-loss: 1245.070388
+198    loss: tensor(0.1189, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.49it/s]
+Epoch:  198 | test accuracy:  0.896 | max accuracy:  0.908 |test-loss: 1186.083764
+199    loss: tensor(0.2546, device='cuda:0', grad_fn=<BinaryCrossEntropyBackward0>)
+100%|██████████| 250/250 [00:23<00:00, 10.45it/s]Epoch:  199 | test accuracy:  0.899 | max accuracy:  0.908 |test-loss: 1186.152587
