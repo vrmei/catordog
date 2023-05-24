@@ -146,7 +146,7 @@ def test(model, device, test_loader, index):
             
             data, target = data.to(device),target.to(device).float().reshape(20, 1)
             output = model(data)
-            test_loss += F.binary_cross_entropy(output, target, reduction='sum').item() # 将一批的损失相加
+            test_loss += F.binary_cross_entropy(output, target, reduction='sum').item() 
             target = target.cpu()
             # print(target)
             pred = torch.tensor([[1] if num[0] >= 0.5 else [0] for num in output]).numpy()
@@ -165,11 +165,11 @@ cnn.eval()
 #train(cnn, train_loader, optimizer, EPOCH)
 image_PIL = Image.open('test1/test1/5.jpg').convert('RGB')
 plt.imshow(image_PIL)
-#
+
 image_tensor = transform(image_PIL)
-# 以下语句等效于 image_tensor = torch.unsqueeze(image_tensor, 0)
+
 image_tensor.unsqueeze_(0)
-# 没有这句话会报错
+
 image_tensor = image_tensor.to(device)
  
 out = cnn(image_tensor)
